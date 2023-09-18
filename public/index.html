@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="/build/index.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <form action="/contactForm" method="POST">
+        <p>
+            <label for="nameField">Nombre</label>
+            <input type="name" id="nameField" name="userName">
+        </p>
+        <p>
+            <label for="surnameField">Apellido</label>
+            <input type="surname" id="surnameField" name="userSurname">
+        </p>
+        <p>
+            <label for="mailField">Email</label>
+            <input type="email" id="mailField" name="mailAddress">
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+    
+</body>
+</html>
